@@ -2353,9 +2353,13 @@ button:not(:disabled):active {
     height: calc(100% - var(--board-size) - 172px);
     width: calc(100% - 24px);
   }
+  .phase-revealing .hero-controls .game-panel,
+  .phase-playing .hero-controls .game-panel {
+    flex: none;
+  }
   .phase-revealing .hero-controls .panel-actions,
   .phase-playing .hero-controls .panel-actions {
-    margin-bottom: 16px;
+    margin-bottom: 88px;
   }
   .chess-app .hero-controls .data-panel {
     margin-bottom: 98px;
